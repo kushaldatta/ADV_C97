@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> theearthgame.game </title>
+    </head>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        canvas {
+            border-style: ridge;
+            background-color: white;
+            background-repeat: no-repeat;
+        }
+    </style>
+    <body onload="add();">
+        <h1 style="color: green; font-size: 40px; text-align: center;"> The Earth Game </h1>
+        <label id="scoreboard" style="font-size: 20px; color: white;"> </label>
+        <br>
+        <br>
+        <b style="font-size: 24px; color:rgb(255, 0, 140);" id="b"> Timer: </b><label style="font-size: 24px; color:rgb(25, 0, 255); font-weight:ligher;" id="timer"> </label>
+        <p style="font-size: 24px; color:yellow;" id="p">Score : <span style="font-size: 24px; color:yellow; " id="score"> 0</span> </p> 
+        
+        <center>
+            <label id="rounds" style="font-size: 25px; color: rgb(0, 183, 255);"> Round : <b id="round_count" style="font-size: 25px; color: rgb(0, 183, 255);"> 1 </b>
+            <Br><br><canvas id="myCanvas" height="500px" width="1100px"> </canvas> 
+        </center>
+    </body>
+    <script src="game.js"> </script>
+</html>
